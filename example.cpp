@@ -1,9 +1,9 @@
-#include "sfuw/Timer.hpp"
-#include "sfuw/Rng_std.hpp"
+#include "sfuw/general/Timer.hpp"
+#include "sfuw/general/Rng_std.hpp"
 
 int main()
 {
-    svuw::Timer t;
+    sfuw::Timer t;
 
     {
         sfuw::Rng_std<> rng;

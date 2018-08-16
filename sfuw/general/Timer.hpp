@@ -2,7 +2,7 @@
 #define _SFUW_TIMER_HPP
 #include <chrono>
 
-namespace svuw
+namespace sfuw
 {
 	class Timer
 	{
@@ -37,5 +37,5 @@ namespace svuw
 	private:
 		internal_clock::time_point m_start;
 	};
-}  // namespace svuw
+}  // namespace sfuw
 #endif // _SFUW_TIMER_HPP
