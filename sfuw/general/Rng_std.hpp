@@ -11,7 +11,7 @@ namespace sfuw
 	struct Rng_std
 	{
 		T_RandomEngine				   engine;
-
+		
 		Rng_std() noexcept
 			: engine(static_cast<unsigned int>(
 				std::chrono::steady_clock::now().time_since_epoch().count()))

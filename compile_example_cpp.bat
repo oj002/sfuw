@@ -1,0 +1,1 @@
+clang++ example.cpp -Wall -Xclang -flto-visibility-public-std -std=c++17

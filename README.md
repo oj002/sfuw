@@ -4,10 +4,11 @@ A collection of some single Util and wrapper libraries.
 # Overview
 You can use the [sfuw_wizard](sfuw/sfuw_wizard.py) to extract multiple libraries into a single file.
 ## General
-|   | File                                          | Language | description
-|---| --------------------------------------------- |:--------:| -----------
-|   | [Timer.hpp](sfuw/general/Timer.hpp)           | C++11    | \<chrono> wrapper
-|   | [Rng_std.hpp](sfuw/general/Rng_std.hpp)       | C++14    | \<random> wrapper
+|   | File                                              | Language  | description
+|---| ------------------------------------------------- |:---------:| -----------
+|   | [Timer.hpp](sfuw/general/Timer.hpp)               | C++11     | \<chrono> wrapper
+|   | [Rng_std.hpp](sfuw/general/Rng_std.hpp)           | C++14     | \<random> wrapper
+|   | [ThreadPool.hpp](sfuw/Threading/ThreadPool.hpp)   | C++14     | execute lambdas in parallel and get the return value at a later point in code without reallocating the threads
 
 
 # Guidelines
