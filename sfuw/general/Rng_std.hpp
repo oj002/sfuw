@@ -8,12 +8,10 @@
 namespace sfuw
 {
 	template<typename T_RandomEngine = std::mt19937>
-	class Rng_std
+	struct Rng_std
 	{
-	public:
 		T_RandomEngine				   engine;
 
-	public:
 		Rng_std() noexcept
 			: engine(static_cast<unsigned int>(
 				std::chrono::steady_clock::now().time_since_epoch().count()))

@@ -2,6 +2,7 @@
 A collection of some single Util and wrapper libraries.
 
 # Overview
+You can use the [sfuw_wizard](sfuw/sfuw_wizard.py) to extract multiple libraries into a single file.
 ## General
 |   | File                                          | Language | description
 |---| --------------------------------------------- |:--------:| -----------
