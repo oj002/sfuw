@@ -8,7 +8,11 @@ You can use the [sfuw_wizard](sfuw/sfuw_wizard.py) to extract multiple libraries
 |---| ------------------------------------------------- |:---------:| -----------
 |   | [Timer.hpp](sfuw/general/Timer.hpp)               | C++11     | \<chrono> wrapper
 |   | [Rng_std.hpp](sfuw/general/Rng_std.hpp)           | C++14     | \<random> wrapper
-|   | [ThreadPool.hpp](sfuw/Threading/ThreadPool.hpp)   | C++14     | execute lambdas in parallel and get the return value at a later point in code without reallocating the threads
+
+## Threading
+|   | File                                              | Language  | description
+|---| ------------------------------------------------- |:---------:| -----------
+|   | [ThreadPool.hpp](sfuw/Threading/ThreadPool.hpp)   | C++14     | execute lambdas in parallel and get the return value at a later point in time without reallocating the threads
 
 
 # Guidelines
