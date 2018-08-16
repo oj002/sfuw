@@ -1,5 +1,5 @@
 # Single File Utils and Wrappers
-A collection of some single Util and wrapper libraries.
+A collection of single file Util and wrapper libraries.
 
 # Overview
 You can use the [sfuw_wizard](sfuw/sfuw_wizard.py) to extract multiple libraries into a single file.
